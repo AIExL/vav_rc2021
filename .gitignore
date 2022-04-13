@@ -1,0 +1,9 @@
+data
+text_files
+vav-icml
+vav-reproduce/__pycache__
+*experiments*/
+
+*.sh
+visualise.py
+sample_gw.py

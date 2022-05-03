@@ -2,8 +2,19 @@
 
 The following codebase is an attempt to re-implement the ideas proposed in the paper titled [Value Alignment Verification](http://proceedings.mlr.press/v139/brown21a/brown21a.pdf) and conduct experiments to verify the claims with respect to the alignment of a robot with a human agent. 
 
-## Authors: Siba Smarak Panigrahi, Sohan Patnaik
+## Citation
+For citing this work use:  
+```
+@inproceedings{panigrahi2022re,
+  title           = {[Re]: Value Alignment Verification},
+  author          = {Siba Smarak Panigrahi and Sohan Patnaik},
+  booktitle       = {ML Reproducibility Challenge 2021 (Fall Edition)},
+  year            = 2022,
+  url             = {https://openreview.net/forum?id=BFLM3nMmhCt}
+}
+```
 
+### Report Description
 It is critical to be able to efficiently evaluate an agent's performance and correctness when humans engage with autonomous agents to execute increasingly complex, sometimes dangerous activities. The paper formulates and conceptually investigates the problem of efficient value alignment verification: how to test whether another agent's behaviour is aligned with a human's values in an efficient manner. The goal is to create a _driver's test_ that a human may give to any agent to check value alignment with the least number of queries possible. In a wide range of gridworlds, we investigate the verification of exact value alignment for rational agents and verify claims made on the heuristics. We investigate and reproduce the claims with respect to _explicit human, explicit robot_ and _explicit human, implicit robot_ settings. 
 
 ### File Description
